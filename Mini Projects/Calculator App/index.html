@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Calculator UI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light pt-3 bg-transparent justify-content-center">
+        <h5 class="navbar-brand">Shinu Shaju
+            <span class="project-title"> / Calculator App UI</span>
+        </h5>
+    </nav>
+
+    <div class="container">
+        <div class="mx-auto calculator-body">
+
+            <div class="pt-5">
+                <p class="text-right data-input">99 <span class="input-symbol">&#xd7;</span> 125 <span
+                        class="input-symbol">&#43;</span> 75</p>
+                <p class="text-right data-output">12,450</p>
+            </div>
+
+            <div class="pt-5">
+
+                <div class="row keys-1">
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default trigonometry-btn">&#x212F;</button>
+                    </div>
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default trigonometry-btn">&pi;</button>
+                    </div>
+                    <div class="col-md-offset-3  mx-auto text-center">
+                        <button type="button" class="btn btn-default trigonometry-btn">sin</button>
+                    </div>
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default trigonometry-btn">cos</button>
+                    </div>
+                </div>
+
+                <div class="row keys-2">
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn clear-btn">C</button>
+                    </div>
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">(</button>
+                    </div>
+                    <div class="col-md-offset-3  mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">)</button>
+                    </div>
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default symbol-btn">&#8725;</button>
+                    </div>
+                </div>
+
+                <div class="row keys-2">
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">7</button>
+                    </div>
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">8</button>
+                    </div>
+                    <div class="col-md-offset-3  mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">9</button>
+                    </div>
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn symbol-btn">&#xd7;</button>
+                    </div>
+                </div>
+
+                <div class="row keys-2">
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">4</button>
+                    </div>
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">5</button>
+                    </div>
+                    <div class="col-md-offset-3  mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">6</button>
+                    </div>
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn symbol-btn">&#43;</button>
+                    </div>
+                </div>
+
+                <div class="row keys-2">
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">1</button>
+                    </div>
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">2</button>
+                    </div>
+                    <div class="col-md-offset-3  mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">3</button>
+                    </div>
+                    <div class="col-md-offset-3 mx-auto text-center">
+                        <button type="button" class="btn btn-default symbol-btn">&#8722;</button>
+                    </div>
+                </div>
+
+                <div class="row keys-3">
+                    <div class="col-md-offset-6 mx-auto text-center">
+                        <button type="button" class="btn btn-default last-btn">0</button>
+                    </div>
+                    <div class="col-md-offset mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn">&#8729;</button>
+                    </div>
+                    <div class="col-md-offset mx-auto text-center">
+                        <button type="button" class="btn btn-default number-btn equals-btn">&#61;</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="fixed-bottom">
+        <p class="text-center">Copyright@2020</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
