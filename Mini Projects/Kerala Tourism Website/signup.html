@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" contnt="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="icon" href="../assets/images/logo-secondary.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Welcome to Kerala Tourism - Create Account</title>
+</head>
+
+<body>
+
+  <div class="container d-flex justify-content-center">
+    <div class="card no-border p-5">
+      <center><a href="index.html"><img src="assets/images/logo-secondary.png" style="height:auto;width:96px;"></a>
+      </center>
+
+      <h1 class="text-center pb-3">Create an Account</h1>
+      <div class="mx-auto" style="width:400px">
+        <form class="form-inline" action="home.html" onsubmit="return validateSignup()">
+          <div class="form-group">
+            <input class="form-control" type="text" placeholder="Full Name" id="name">
+            <label class="error" id="name_error"></label>
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="text" placeholder="Your Email" id="email">
+            <label class="error" id="email_error"></label>
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="tel" placeholder="Phone Number" id="phone">
+            <label class="error" id="phone_error"></label>
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="password" placeholder="Password" id="password"
+              onkeyup="return passwordChanged();">
+            <span id="strength"></span>
+            <label class="error" id="password_error"></label>
+
+          </div>
+
+          <button class="mt-4 btn btn-custom" type="submit" id="submit">Create Account</button>
+        </form>
+
+        <div class="pt-4 text-center">
+          Already have an account?<a href="login.html" class="btn" type="submit">Login</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/form.js"></script>
+
+</body>
+
+</html>

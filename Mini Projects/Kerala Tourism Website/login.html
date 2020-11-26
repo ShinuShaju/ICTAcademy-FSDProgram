@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="icon" href="../assets/images/logo-secondary.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Welcome to Kerala Tourism - Login</title>
+</head>
+
+<body>
+
+  <div class="container pt-1 d-flex justify-content-center">
+    <div class="card no-border p-5">
+      <center><a href="index.html"><img src="assets/images/logo-secondary.png" style="height:auto;width:96px;"></a>
+      </center>
+
+      <h1 class="text-center">Welcome Back :)</h1>
+      <p class="text-center">To keep connected with us, please login with your personal information by email address and
+        password.</p>
+      <div class="mx-auto pt-3" style="width:400px">
+        <form class="form-inline" action="home.html" onsubmit="return validateLogin()">
+          <div class="form-group">
+            <input class="form-control" type="text" placeholder="Your Email" id="email">
+            <label class="error" id="email_error"></label>
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="password" placeholder="Password" id="password">
+            <label class="error" id="password_error"></label>
+          </div>
+          <div class="pt-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"> Remember Me</label>
+          </div>
+
+          <button class="mt-4 btn btn-custom" type="submit" id="submit">Login</button>
+
+        </form>
+
+        <div class="pt-4 text-center">
+          Don't have an account?<a href="signup.html" class="btn btn-cu" type="submit">Create Account</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="assets/js/form.js"></script>
+
+
+</body>
+
+</html>
